@@ -20,6 +20,8 @@ end
 
 def get_user_input
   # code #get_user_input here
+  # source: https://www.lauraleeflores.com/blog/what-is-the-difference-between-chomp-and-strip-in-ruby
+  user_input = gets.strip.chomp
 end
 
 def end_game
